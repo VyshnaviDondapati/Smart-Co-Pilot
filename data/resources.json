@@ -1,0 +1,29 @@
+{
+  "icuBeds": {
+    "free": 2,
+    "total": 6,
+    "occupied": 4
+  },
+  "bloodBank": [
+    {
+      "group": "O-",
+      "units": 3,
+      "status": "critical"
+    },
+    {
+      "group": "A+",
+      "units": 10,
+      "status": "adequate"
+    },
+    {
+      "group": "B+",
+      "units": 6,
+      "status": "adequate"
+    },
+    {
+      "group": "O+",
+      "units": 15,
+      "status": "good"
+    }
+  ]
+}

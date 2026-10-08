@@ -1,0 +1,40 @@
+[
+  {
+    "id": "PT-4414",
+    "name": "Vaishnavi",
+    "age": "20",
+    "gender": "Female",
+    "bpSystolic": "125",
+    "bpDiastolic": "82",
+    "height": "163",
+    "weight": "72",
+    "bloodGroup": "A+",
+    "temperature": "99.2",
+    "sugarLevel": "105",
+    "wbcCount": "8100",
+    "aggravatingRelieving": "",
+    "pastSurgical": "",
+    "familyHistory": "",
+    "personalHistory": "",
+    "currentMedications": "",
+    "allergies": "",
+    "sleepCycle": "",
+    "urineIssues": "",
+    "isPregnant": false,
+    "gestationalWeeks": "",
+    "maternalFlags": {},
+    "diabetesType": "None",
+    "bloodGlucose": "105",
+    "glycemicFlags": {
+      "hypoglycemiaSigns": false,
+      "dkaSigns": false,
+      "footUlcersNeuropathy": false
+    },
+    "triagePriority": "GREEN",
+    "urgencyScore": 20,
+    "urgencyReason": "All recorded body vitals and health records are in normal range. Patient is queued for regular doctor consultation in normal turn.",
+    "assignedDoctor": "Dr. Arvind Rao",
+    "status": "WAITING",
+    "createdAt": "2026-10-08T12:54:36.904Z"
+  }
+]

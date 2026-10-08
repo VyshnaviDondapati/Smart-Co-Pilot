@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+:root {
+  --background: #061217;
+  --foreground: #f9fafb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* ─── Ambient Glow Effect around Cards ─── */
+@keyframes card-neon-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 25px rgba(45, 212, 191, 0.35),
+      0 0 50px rgba(20, 184, 166, 0.15),
+      0 20px 45px rgba(0, 0, 0, 0.4),
+      inset 0 1px 2px rgba(255, 255, 255, 0.3),
+      inset 0 -1px 2px rgba(45, 212, 191, 0.2);
+    border-color: rgba(94, 234, 212, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 35px rgba(45, 212, 191, 0.5),
+      0 0 70px rgba(20, 184, 166, 0.25),
+      0 25px 50px rgba(0, 0, 0, 0.45),
+      inset 0 1px 2px rgba(255, 255, 255, 0.4),
+      inset 0 -1px 2px rgba(45, 212, 191, 0.25);
+    border-color: rgba(94, 234, 212, 0.55);
+  }
+}
+
+.animate-card-neon {
+  animation: card-neon-pulse 4s ease-in-out infinite;
+}
+
+/* ─── Subtle Gentle Floating for Background ─── */
+@keyframes bg-subtle-drift {
+  0%, 100% {
+    transform: scale(1.01) translateY(0);
+  }
+  50% {
+    transform: scale(1.02) translateY(-0.6%);
+  }
+}
+
+.animate-bg-drift {
+  animation: bg-subtle-drift 22s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+/* ─── DNA / Pulse Line Animation ─── */
+@keyframes ecg-scan {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-ecg-scan {
+  animation: ecg-scan 4s linear infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+
+/* ─── View Transition ─── */
+@keyframes fade-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-in {
+  animation: fade-slide-in 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ─── Staggered Entrance Animations ─── */
+.animate-stagger-1 { animation: fade-slide-in 0.6s ease-out 0.1s both; }
+.animate-stagger-2 { animation: fade-slide-in 0.6s ease-out 0.2s both; }
+.animate-stagger-3 { animation: fade-slide-in 0.6s ease-out 0.3s both; }
+.animate-stagger-4 { animation: fade-slide-in 0.6s ease-out 0.4s both; }
+.animate-stagger-5 { animation: fade-slide-in 0.6s ease-out 0.5s both; }
+
+/* ─── Input Focus Reset ─── */
+input:focus, select:focus {
+  outline: none;
+}
+
+/* ─── Completely Invisible / Hidden Scrollbar ─── */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+}
+
+/* ─── Sleek Custom Scrollbar ─── */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(45, 212, 191, 0.25);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(45, 212, 191, 0.5);
+}

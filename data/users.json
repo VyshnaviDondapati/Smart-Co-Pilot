@@ -1,0 +1,92 @@
+[
+  {
+    "id": "USR-DOC-01",
+    "email": "doctor@smarttriage.org",
+    "fullName": "Dr. Arvind Rao",
+    "role": "doctor",
+    "licenseId": "MCI-2018-99214",
+    "passwordHash": "00a5d829ef276616d75b290b79c172e2732b810eb454f9085ff4484960edc95b",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "USR-NUR-01",
+    "email": "nurse@smarttriage.org",
+    "fullName": "Nurse Priya Sharma",
+    "role": "nurse",
+    "licenseId": "INC-2020-44120",
+    "passwordHash": "23a24ed3e4bf0865af1f1d6f77cb58b9ddddece9d1545b2ae78b59b9fc085219",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "USR-STF-01",
+    "email": "staff@smarttriage.org",
+    "fullName": "Compounder Suresh Kumar",
+    "role": "compounder",
+    "licenseId": "PHC-STF-8821",
+    "passwordHash": "e3e1a64bc866b4e2a6ef9956a0b6d901fc93c7f53afd38d8d1929d8f886ac73c",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "USR-ADM-01",
+    "email": "admin@smarttriage.org",
+    "fullName": "Admin Dr. Meera Patel",
+    "role": "admin",
+    "licenseId": "DMO-ADM-1002",
+    "passwordHash": "30a683bcf5118689b9c1bd555062d001af4b4de403bdcd518ecf44c9e7457af3",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "USR-DOC-8614",
+    "email": "test_doc_1787990316036@smarttriage.org",
+    "fullName": "Dr. Test Physician",
+    "role": "doctor",
+    "licenseId": "MCI-TEST-99",
+    "passwordHash": "488a15aad0c1b159f0886f77b7a23444cb802e2378b4bbf0aac442f363650eb6",
+    "status": "active",
+    "createdAt": "2026-08-29T07:58:36.519Z"
+  },
+  {
+    "id": "USR-DOC-1657",
+    "email": "doctor_5724@hospital.org",
+    "fullName": "Dr. Rajesh Patel 5724",
+    "role": "doctor",
+    "licenseId": "DOC-17425",
+    "passwordHash": "488a15aad0c1b159f0886f77b7a23444cb802e2378b4bbf0aac442f363650eb6",
+    "status": "active",
+    "createdAt": "2026-08-29T08:07:03.704Z"
+  },
+  {
+    "id": "USR-NUR-7775",
+    "email": "nurse_5724@hospital.org",
+    "fullName": "Nurse Ananya 5724",
+    "role": "nurse",
+    "licenseId": "NUR-99867",
+    "passwordHash": "488a15aad0c1b159f0886f77b7a23444cb802e2378b4bbf0aac442f363650eb6",
+    "status": "active",
+    "createdAt": "2026-08-29T08:07:03.841Z"
+  },
+  {
+    "id": "USR-DOC-1313",
+    "email": "amitsharma@gmail.com",
+    "fullName": "Amit Sharma",
+    "role": "doctor",
+    "licenseId": "DOC-55269",
+    "passwordHash": "890a4dca47e6ac6e9718d037402d0aeca3429805e9bc89e52cef691fa2e161ed",
+    "status": "active",
+    "createdAt": "2026-08-29T08:56:40.000Z"
+  },
+  {
+    "id": "USR-NUR-6438",
+    "email": "prash1805@gmail.com",
+    "fullName": "Praharshitha",
+    "role": "nurse",
+    "licenseId": "NUR-87189",
+    "passwordHash": "9b082566f6ab83c465e9790bb5589868085170496d171407dc2c08c64070857b",
+    "status": "active",
+    "createdAt": "2026-08-29T08:59:47.059Z"
+  }
+]

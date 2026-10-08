@@ -1,0 +1,100 @@
+[
+  {
+    "id": "msg-1",
+    "sender": "Nurse Praharshitha",
+    "role": "nurse",
+    "text": "Patient vitals recorded (BP: 120/80 mmHg, Sugar: 115 mg/dL, Afebrile, Priority P3).",
+    "time": "03:00 PM"
+  },
+  {
+    "id": "msg-2",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "Understood Nurse Praharshitha. Starting clinical review in Room 2.",
+    "time": "03:02 PM"
+  },
+  {
+    "id": "msg-1787999692356-i8l2",
+    "sender": "Nurse Praharshitha",
+    "role": "nurse",
+    "text": "Patient Vyshnavi vitals recorded and dispatched.",
+    "time": "04:04 PM"
+  },
+  {
+    "id": "msg-1788000111941-25ct",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "[DOCTOR ORDER]: Patient Vyshnavi status updated to [TREATED]. Prescribed Amoxicillin & Paracetamol.",
+    "time": "04:11 PM"
+  },
+  {
+    "id": "msg-1788688265232-5407",
+    "sender": "Nurse Praharshitha",
+    "role": "nurse",
+    "text": "mild fever and short rise in bp",
+    "time": "03:21 PM"
+  },
+  {
+    "id": "msg-1788688321598-yc27",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "ok",
+    "time": "03:22 PM"
+  },
+  {
+    "id": "msg-1788688338402-rxej",
+    "sender": "Emergency Trauma Dispatch",
+    "role": "system",
+    "text": "🚨 CRITICAL CODE RED ALERT: Ramesh Sharma (Emergency Trauma) (Accident / Severe Injury) admitted. ICU Bed auto-allocated.",
+    "time": "03:22 PM"
+  },
+  {
+    "id": "msg-1788689582360-dxtw",
+    "sender": "Emergency Trauma Dispatch",
+    "role": "system",
+    "text": "🚨 CRITICAL CODE RED ALERT: Ramesh Sharma (Emergency Trauma) (Accident / Severe Injury) admitted. ICU Bed auto-allocated.",
+    "time": "03:43 PM"
+  },
+  {
+    "id": "msg-1788690898345-qk7r",
+    "sender": "Emergency Trauma Dispatch",
+    "role": "system",
+    "text": "🚨 CRITICAL CODE RED ALERT: Ramesh Sharma (Emergency Trauma) (Accident / Severe Injury) admitted. ICU Bed auto-allocated.",
+    "time": "04:04 PM"
+  },
+  {
+    "id": "msg-1788693180018-stpu",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "[RECORD DELETED]: Patient Ramesh Sharma (Emergency Trauma) (#PT-6195) was deleted from the triage queue.",
+    "time": "04:43 PM"
+  },
+  {
+    "id": "msg-1788693184486-yur9",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "[RECORD DELETED]: Patient Ramesh Sharma (Emergency Trauma) (#PT-6525) was deleted from the triage queue.",
+    "time": "04:43 PM"
+  },
+  {
+    "id": "msg-1788693190853-vqyv",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "[RECORD DELETED]: Patient Ramesh Sharma (Emergency Trauma) (#PT-9060) was deleted from the triage queue.",
+    "time": "04:43 PM"
+  },
+  {
+    "id": "msg-1788693196491-6xzl",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "[RECORD DELETED]: Patient Vyshnavi (#PT-9000) was deleted from the triage queue.",
+    "time": "04:43 PM"
+  },
+  {
+    "id": "msg-1788693218158-xkj1",
+    "sender": "Dr. Amit Sharma",
+    "role": "doctor",
+    "text": "[RECORD DELETED]: Patient Ramesh Sharma (Emergency Trauma) (#PT-6525) was deleted from the triage queue.",
+    "time": "04:43 PM"
+  }
+]

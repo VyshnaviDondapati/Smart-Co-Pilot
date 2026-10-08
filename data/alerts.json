@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ALT-2997",
+    "patientId": "PT-9060",
+    "patientName": "Ramesh Sharma (Emergency Trauma)",
+    "category": "Accident / Severe Injury",
+    "notes": "Acute severe chest trauma with tachypnea and diaphoresis.",
+    "timestamp": "2026-09-06T10:34:57.360Z",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "ALT-9122",
+    "patientId": "PT-6525",
+    "patientName": "Ramesh Sharma (Emergency Trauma)",
+    "category": "Accident / Severe Injury",
+    "notes": "Acute severe chest trauma with tachypnea and diaphoresis.",
+    "timestamp": "2026-09-06T10:13:01.599Z",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "ALT-4785",
+    "patientId": "PT-6195",
+    "patientName": "Ramesh Sharma (Emergency Trauma)",
+    "category": "Accident / Severe Injury",
+    "notes": "Acute severe chest trauma with tachypnea and diaphoresis.",
+    "timestamp": "2026-09-06T09:52:17.289Z",
+    "status": "ACTIVE"
+  }
+]
